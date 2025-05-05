@@ -10,10 +10,8 @@
 <body class="bg-white text-gray-800">
 
 <!-- Header -->
-<header class="bg-blue-900 text-white text-center py-20 px-4 bg-cover bg-center" style="background-image: url('Images/0.png');">
-  <div class="bg-blue-900 bg-opacity-70 py-10 px-4">
+<header class="bg-blue-900 text-white text-center py-40 px-4 bg-cover bg-center" style="background-image: url('Images/0.png');">
     <h1 class="text-4xl font-bold">Enhance Your Learning with Virtual Reality</h1>
-  </div>
 </header>
 
 
@@ -39,43 +37,49 @@
   <!-- VR Experience Section -->
   <section class="max-w-5xl mx-auto py-12 px-6">
     <h2 class="text-2xl font-semibold mb-6">How does the VR learning experience look with Curio-XR?</h2>
-    <img src="Images/2.jpg" alt="Students using VR headsets" class="w-full h-72 object-cover rounded-lg mb-4">
+    <img src="Images/2.jpg" alt="Students using VR headsets" class="w-full h-84 object-cover rounded-lg mb-4">
     <p class="text-center text-sm text-gray-500 mb-6">Students engaging with VR headsets in a collaborative learning session.</p>
     <p class="mb-4">With Curio-XR, the VR learning experience is immersive, interactive, and deeply engaging. Instead of simply reading or watching lessons on a flat screen, students step into fully 3D environments where they can explore historical sites, manipulate complex engineering models, or observe scientific phenomena up close. Our goal is to enhance learning and academic engagement by offering experiences that traditional two-dimensional platforms simply can't match—transforming passive study into active discovery, all from the comfort of home.</p>
     <p>The impact of this approach has been recognized at major academic conferences. The Learning Center Director presented on the VR learning experience using Curio-XR at <strong>ACTLA 2025 (“Immersive Learning: Enhancing Learning Centers with VR Technology”)</strong> and <strong>ACTP 2025 (“Revolutionizing Peer Learning and Tutoring with VR”)</strong>, highlighting how virtual reality is reshaping peer tutoring and cross-subject academic support.</p>
     <p><strong>Step into the future of learning — with Curio-XR.</strong></p>
   </section>
 
-  <!-- Subjects Section -->
-  <section class="max-w-5xl mx-auto py-12 px-6">
-    <h2 class="text-2xl font-semibold mb-6">Explore Your Favorite Subjects</h2>
+<!-- Subjects Section -->
+<section class="max-w-6xl mx-auto py-12 px-6">
+  <h2 class="text-2xl font-semibold mb-10 text-center">Explore Your Favorite Subjects</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
     
-    <div class="space-y-12">
-      <!-- Biology VR Demo -->
-      <div>
-        <div class="aspect-w-16 aspect-h-9">
-          <iframe src="Video/Skeletal.MOV" title="Biology VR Demo" allowfullscreen class="w-full h-64 rounded-lg"></iframe>
-        </div>
-        <p class="text-center text-sm text-gray-500 mt-2">Biology: Explore human anatomy in 3D.</p>
-      </div>
-  
-      <!-- Chemistry VR Demo -->
-      <div>
-        <div class="aspect-w-16 aspect-h-9">
-          <iframe src="Video/Curio-XR Chemistry.mp4" title="Chemistry VR Demo" allowfullscreen class="w-full h-64 rounded-lg"></iframe>
-        </div>
-        <p class="text-center text-sm text-gray-500 mt-2">Chemistry: Visualize molecules and reactions interactively.</p>
-      </div>
-  
-      <!-- Calculus VR Demo -->
-      <div>
-        <div class="aspect-w-16 aspect-h-9">
-          <iframe src="Video/GraphingCalculator.MOV" title="Calculus VR Demo" allowfullscreen class="w-full h-64 rounded-lg"></iframe>
-        </div>
-        <p class="text-center text-sm text-gray-500 mt-2">Calculus: Experience equations come to life in 3D space.</p>
-      </div>
+    <!-- Biology VR Demo -->
+    <div>
+      <video controls class="w-full h-64 rounded-lg object-cover mx-auto">
+        <source src="Video/Skeletal.MOV" type="video/quicktime">
+        Your browser does not support the video tag.
+      </video>
+      <p class="text-sm text-gray-500 mt-2"><b>Biology: Explore human anatomy in 3D.</b></p>
     </div>
-  </section>
+
+    <!-- Chemistry VR Demo -->
+    <div>
+      <video controls class="w-full h-64 rounded-lg object-cover mx-auto">
+        <source src="Video/Curio-XR Chemistry.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p class="text-sm text-gray-500 mt-2"><b>Chemistry: Visualize molecules and reactions interactively.</b></p>
+    </div>
+
+    <!-- Calculus VR Demo -->
+    <div>
+      <video controls class="w-full h-64 rounded-lg object-cover mx-auto">
+        <source src="Video/GraphingCalculator.MOV" type="video/quicktime">
+        Your browser does not support the video tag.
+      </video>
+      <p class="text-sm text-gray-500 mt-2"><b>Calculus: Experience equations come to life in 3D space.</b></p>
+    </div>
+  </div>
+</section>
+
+
   
 
   <!-- Features Carousel -->
@@ -102,7 +106,7 @@
   <!-- Interest Form -->
   <section class="max-w-5xl mx-auto py-12 px-6 text-center">
     <h2 class="text-2xl font-semibold mb-4">Interested in VR Learning?</h2>
-    <p class="mb-6">Are you a faculty member who wants to explore VR integration? A student who wants to experience it first-hand? Fill out this short interest form to connect with us.</p>
+    <p class="mb-6"><b>Are you a faculty member who wants to explore VR integration? A student who wants to experience it first-hand? Fill out this short interest form to connect with us.</b></p>
     <a href="#" class="bg-blue-900 text-white px-6 py-3 rounded-full hover:bg-blue-800 transition">Fill Out Interest Form</a>
   </section>
 
